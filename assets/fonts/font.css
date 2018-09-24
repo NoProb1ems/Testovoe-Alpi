@@ -1,0 +1,49 @@
+@font-face {
+	font-family: "LatoLight"; 
+	src: url("./Lato-Light.eot"); 
+	src: url("./Lato-Light.eot?#iefix") format("embedded-opentype"),
+	url("./Lato-Light.woff") format("woff"), 
+	url("./Lato-Light.ttf") format("truetype"); 
+	font-style: normal; 
+	font-weight: normal; 
+}
+
+@font-face {
+	font-family: "LatoRegular"; 
+	src: url("./Lato-Regular.eot"); 
+	src: url("./Lato-Regular.eot?#iefix") format("embedded-opentype"),
+	url("./Lato-Regular.woff") format("woff"), 
+	url("./Lato-Regular.ttf") format("truetype"); 
+	font-style: normal; 
+	font-weight: normal; 
+}
+
+@font-face {
+	font-family: "MontserratLight"; 
+	src: url("./Montserrat-Light.eot"); 
+	src: url("./Montserrat-Light.eot?#iefix") format("embedded-opentype"),
+	url("./Montserrat-Light.woff") format("woff"), 
+	url("./Montserrat-Light.ttf") format("truetype"); 
+	font-style: normal; 
+	font-weight: normal; 
+}
+
+@font-face {
+	font-family: "MontserratRegular"; 
+	src: url("./Montserrat-Regular.eot"); 
+	src: url("./Montserrat-Regular.eot?#iefix") format("embedded-opentype"),
+	url("./Montserrat-Regular.woff") format("woff"), 
+	url("./Montserrat-Regular.ttf") format("truetype"); 
+	font-style: normal; 
+	font-weight: normal; 
+}
+
+@font-face {
+	font-family: "PantonBlack"; 
+	src: url("./Panton-Black.eot"); 
+	src: url("./Panton-Black.eot?#iefix") format("embedded-opentype"),
+	url("./Panton-Black.woff") format("woff"), 
+	url("./Panton-Black.ttf") format("truetype"); 
+	font-style: normal; 
+	font-weight: normal; 
+}

@@ -1,0 +1,326 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+.p0 {
+  padding: 0 !important; }
+
+.textAllignCenter {
+  text-align: center !important; }
+.textAlign {
+  text-align: left!important;}
+
+.w-100 {
+  width: 100% !important; }
+
+img {
+  transform: scale(1);
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+}
+
+input {outline:none;}
+
+html, body, .main {
+  height: 100%; }
+
+html {
+  font-size: 100%; }
+
+.main {
+  background-image: url(../img/backgr.png);
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column; }
+  .main header {
+    margin-top: 2.375rem;
+    width: 100%;}
+  .main .content {
+    /*padding-top: 6.7rem;*/
+    padding-top: 7%;
+    -webkit-box-flex: 1;
+        -ms-flex-positive: 1;
+            flex-grow: 1;}
+  .main footer {
+    width: 100%;}
+
+.banner {
+  margin-top: 3.125rem; }
+  .banner .banner__title {
+    font-family: Panton;
+    font-weight: 900;
+    font-style: normal;
+    font-stretch: normal;
+    text-align: left;
+    color: #5a6b79; }
+    .banner .banner__title .banner__big-title {
+      font-size: 7.5rem;
+      line-height: 0.58;
+      letter-spacing: -3px;
+      text-transform: uppercase; }
+    .banner .banner__title .banner__small-title {
+      font-size: 3.3125rem;
+      line-height: 1.32;
+      letter-spacing: -1px;
+      text-transform: uppercase;
+      margin-top: 1.5rem; }
+  .banner .banner__description {
+    font-family: Montserrat;
+    font-size: 1.875rem;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.33;
+    letter-spacing: 1.2px;
+    text-align: left;
+    color: #3e5466;
+    margin-top: 1.5rem; }
+
+.banner__description-textGold-theme {
+  font-weight: 600;
+  color: #dcab27; }
+
+.request {
+  margin-top: 30%;
+  padding-top: 1.56rem;
+  padding-bottom: 3.75rem;
+  opacity: 0.9;
+  border-radius: 10px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#405060), color-stop(#4e5c6c), color-stop(#5c6978), color-stop(#6a7684), to(#788390));
+  background-image: linear-gradient(to bottom, #405060, #4e5c6c, #5c6978, #6a7684, #788390);
+  -webkit-box-shadow: 1.7px 10.9px 43px 0 rgba(4, 37, 70, 0.46);
+          box-shadow: 1.7px 10.9px 43px 0 rgba(4, 37, 70, 0.46); }
+  .request .request__title {
+    text-transform: uppercase;
+    font-family: Lato;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    text-align: center;
+    color: #ffffff;
+    text-shadow: 0px 4px 15.7px rgba(11, 88, 148, 0.53);
+    margin-bottom: 33px; }
+    .request .request__title .request__small-title {
+      font-size: 1.375rem;
+      line-height: 1.7;
+      letter-spacing: 0.6px; }
+    .request .request__title .request__big-title {
+      font-size: 1.75rem;
+      line-height: 1.41;
+      letter-spacing: 0.7px; }
+  .request .request__name-input {
+    width: 100%;
+    opacity: 0.8;
+    font-family: Lato;
+    font-size: 1.125rem;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.61;
+    letter-spacing: 0.5px;
+    text-align: left;
+    color: rgba(255, 255, 255, 0.8);
+    background: none;
+    border: none;
+    border-bottom: 2px solid #afbecc;
+    margin-bottom: 2.375rem; }
+  .request .request__mail-input {
+    width: 100%;
+    opacity: 0.8;
+    font-family: Lato;
+    font-size: 1.125rem;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.61;
+    letter-spacing: 0.5px;
+    text-align: left;
+    color: rgba(255, 255, 255, 0.8);
+    background: none;
+    border: none;
+    border-bottom: 2px solid #afbecc;
+    margin-bottom: 2.375rem; }
+  .request .request__phone-input {
+    width: 100%;
+    opacity: 0.8;
+    font-family: Lato;
+    font-size: 1.125rem;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.61;
+    letter-spacing: 0.5px;
+    text-align: left;
+    color: rgba(255, 255, 255, 0.8);
+    background: none;
+    border: none;
+    border-bottom: 2px solid #afbecc;
+    margin-bottom: 2.375rem; }
+  .request .request__btn-send {
+    opacity: 0.95;
+    border-radius: 27.5px;
+    background-image: -webkit-gradient(linear, left top, right top, from(#8f98a3), color-stop(#8a949f), color-stop(#868f9b), color-stop(#818b97), to(#7d8793));
+    background-image: linear-gradient(to right, #8f98a3, #8a949f, #868f9b, #818b97, #7d8793);
+    -webkit-box-shadow: 1.7px 10.9px 35.6px 4.4px rgba(4, 4, 4, 0.22);
+            box-shadow: 1.7px 10.9px 35.6px 4.4px rgba(4, 4, 4, 0.22);
+    font-family: Lato;
+    text-transform: uppercase;
+    font-size: 1.25rem;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.63;
+    letter-spacing: 0.5px;
+    text-align: center;
+    color: #ffffff;
+    border: none;
+    padding: 0.625rem 5rem;
+    margin-top: 0.625rem;
+    cursor: pointer; }
+
+.footer .footer__logo-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-line-pack: end;
+      align-content: flex-end;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 0.875rem; }
+
+  .footer .footer__logo-list .footer__logo-img {
+    height: auto;
+    width: auto;
+  }
+
+.footer .footer__description {
+  font-family: Lato;
+  font-size: 0.875rem;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.29;
+  letter-spacing: 0.4px;
+  text-align: left;
+  color: #a1aab3;
+  margin-bottom: 2.3rem; }
+
+@media (min-width: 1560px) {
+  .container {
+    max-width: 1560px; } }
+
+@media (min-width: 1200px) and (max-width: 1559px) {
+  html {
+    font-size: 70%; }
+    img {
+      transform: scale(0.92);
+      -webkit-transform: scale(0.92);
+      -ms-transform: scale(0.92);
+      } }
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  html {
+    font-size: 70%; } 
+  img {
+      transform: scale(0.85);
+      -webkit-transform: scale(0.85);
+      -ms-transform: scale(0.85);
+      }}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  html {
+    font-size: 85%; 
+  } 
+  img {
+      transform: scale(0.92);
+      -webkit-transform: scale(0.92);
+      -ms-transform: scale(0.92);
+      }
+  .banner .banner__description {
+    text-align: center;
+  }
+  .banner {
+    margin-top: 0;
+  }
+  .request {
+    margin: 5rem 0;
+  }
+
+}
+@media (min-width: 992px) and (max-width: 1366px){
+.main .content {
+        padding-top: 1%!important;
+        }
+.request {
+  margin-top: 35%;
+  }}
+
+@media (min-width: 576px) and (max-width: 767px) {
+  html {
+    font-size: 62%; 
+  } 
+  img {
+      transform: scale(0.86);
+      -webkit-transform: scale(0.86);
+      -ms-transform: scale(0.86);
+      }
+  .banner .banner__description {
+    text-align: center;
+  }
+  .banner {
+    margin-top: 0;
+  }
+  .request {
+    margin: 5rem 0;
+  }
+}
+
+@media (max-width: 575px) {
+  html {
+    font-size: 44%; } 
+    img {
+      transform: scale(0.67);
+      -webkit-transform: scale(0.67);
+      -ms-transform: scale(0.67);
+      }
+  .banner .banner__description {
+      width: 70%;
+      margin-left: 15%;
+      text-align: center;
+  }
+  .footer .footer__logo-list {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+.banner {
+    margin-top: 0;
+  }
+  .request {
+    margin: 5rem 0;
+  }}
+
+@media (max-width: 992px) {
+  .footer .footer__description, .banner .banner__title, .banner .banner__description {
+    text-align: center; } 
+
+  .textAlign {
+      text-align: center!important; } }
+
